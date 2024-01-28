@@ -1,0 +1,2 @@
+自分用のAppStoreConnectAPIラッパーです。
+ProvisioningProfile系のAPIとDevice系のAPIを中心に書いてますが今後メンテしてくかも。
