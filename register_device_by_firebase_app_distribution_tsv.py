@@ -29,4 +29,4 @@ with open(args.firebaseTsvPath) as f:
                 break
         if not already_registered:
             print(f"{item}を登録するよ")
-            api.register_device(item["Device Name"], item["Device ID"])
+            api.register_device(item["Device Name"], item["Device ID"],"IOS")
