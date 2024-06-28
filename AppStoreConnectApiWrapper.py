@@ -61,7 +61,7 @@ class AppStoreConnectApiWrapper:
         """
         try:
             self.__update_header()
-            response = requests.get(self.ENDPOINT_DEVICES, headers=self.__header)
+            response = requests.get(f"{self.ENDPOINT_DEVICES}?limit=200", headers=self.__header)
             if not response.ok:
                 print(response.text)
                 return None
