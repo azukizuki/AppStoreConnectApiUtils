@@ -1,3 +1,5 @@
+
+
 自分用のAppStoreConnectAPIラッパーです。
 ProvisioningProfile系のAPIとDevice系のAPIを中心に書いてますが今後メンテしてくかも。
 
@@ -21,6 +23,5 @@ AppStoreConnectApiWrapperにkeyId,IssuerId,p8ファイルへのパスを入れ�
 # サンプル実装について
 サンプルコードとして以下を入れています
 - ProvisioningProfileをAppStoreConnectAPI経由でDLする
-- FirebaseAppDistributionで手に入るTSVファイルを元に端末登録を行う
+- FirebaseAppDistributionで手に入るTSVファイルを元に端末登録を行う（TSVには `Device ID` と `Device Name` の列が必要です）
 - 指定したProvisioningProfileに登録済み端末全てを登録し更新を行う
-
